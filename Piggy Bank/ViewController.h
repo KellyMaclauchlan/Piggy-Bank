@@ -14,7 +14,7 @@
 @property (strong,nonatomic)NSMutableArray<Coin *> *last;//for undo
 
 //ui
-@property (strong,nonatomic)IBOutlet UIButton *button1;//.01
+@property (strong,nonatomic)IBOutlet UIButton *button1;//.01 
 @property (strong,nonatomic)IBOutlet UIButton *button2;//.05
 @property (strong,nonatomic)IBOutlet UIButton *button3;//.10
 @property (strong,nonatomic)IBOutlet UIButton *button4;//.25
