@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEA097971D2E97EF00E8340C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA097961D2E97EF00E8340C /* main.m */; };
+		FEA0979A1D2E97EF00E8340C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA097991D2E97EF00E8340C /* AppDelegate.m */; };
+		FEA0979D1D2E97EF00E8340C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA0979C1D2E97EF00E8340C /* ViewController.m */; };
+		FEA097A01D2E97EF00E8340C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA0979E1D2E97EF00E8340C /* Main.storyboard */; };
+		FEA097A21D2E97EF00E8340C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA097A11D2E97EF00E8340C /* Assets.xcassets */; };
+		FEA097A51D2E97EF00E8340C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA097A31D2E97EF00E8340C /* LaunchScreen.storyboard */; };
+		FEA097B01D2E97EF00E8340C /* Piggy_BankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA097AF1D2E97EF00E8340C /* Piggy_BankTests.m */; };
+		FEA097BB1D2E97F000E8340C /* Piggy_BankUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA097BA1D2E97F000E8340C /* Piggy_BankUITests.m */; };
+		FEA097CB1D2E9B1A00E8340C /* bill.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA097C81D2E9B1A00E8340C /* bill.png */; };
+		FEA097CC1D2E9B1A00E8340C /* goldCoin.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA097C91D2E9B1A00E8340C /* goldCoin.png */; };
+		FEA097CD1D2E9B1A00E8340C /* silverCoin.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA097CA1D2E9B1A00E8340C /* silverCoin.png */; };
+		FEA097CF1D2E9E4800E8340C /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA097CE1D2E9E4800E8340C /* black.png */; };
+		FEA097D21D2EA05700E8340C /* Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA097D11D2EA05700E8340C /* Coin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEA097AC1D2E97EF00E8340C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA0978A1D2E97EF00E8340C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA097911D2E97EF00E8340C;
+			remoteInfo = "Piggy Bank";
+		};
+		FEA097B71D2E97F000E8340C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA0978A1D2E97EF00E8340C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA097911D2E97EF00E8340C;
+			remoteInfo = "Piggy Bank";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEA097921D2E97EF00E8340C /* Piggy Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Piggy Bank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA097961D2E97EF00E8340C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEA097981D2E97EF00E8340C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEA097991D2E97EF00E8340C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEA0979B1D2E97EF00E8340C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEA0979C1D2E97EF00E8340C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEA0979F1D2E97EF00E8340C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEA097A11D2E97EF00E8340C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEA097A41D2E97EF00E8340C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEA097A61D2E97EF00E8340C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA097AB1D2E97EF00E8340C /* Piggy BankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Piggy BankTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA097AF1D2E97EF00E8340C /* Piggy_BankTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Piggy_BankTests.m; sourceTree = "<group>"; };
+		FEA097B11D2E97EF00E8340C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA097B61D2E97F000E8340C /* Piggy BankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Piggy BankUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA097BA1D2E97F000E8340C /* Piggy_BankUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Piggy_BankUITests.m; sourceTree = "<group>"; };
+		FEA097BC1D2E97F000E8340C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA097C81D2E9B1A00E8340C /* bill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bill.png; path = ../../../../Pictures/development/bill.png; sourceTree = "<group>"; };
+		FEA097C91D2E9B1A00E8340C /* goldCoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goldCoin.png; path = ../../../../Pictures/development/goldCoin.png; sourceTree = "<group>"; };
+		FEA097CA1D2E9B1A00E8340C /* silverCoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = silverCoin.png; path = ../../../../Pictures/development/silverCoin.png; sourceTree = "<group>"; };
+		FEA097CE1D2E9E4800E8340C /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		FEA097D01D2EA05700E8340C /* Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coin.h; sourceTree = "<group>"; };
+		FEA097D11D2EA05700E8340C /* Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA0978F1D2E97EF00E8340C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA097A81D2E97EF00E8340C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA097B31D2E97EF00E8340C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEA097891D2E97EF00E8340C = {
+			isa = PBXGroup;
+			children = (
+				FEA097941D2E97EF00E8340C /* Piggy Bank */,
+				FEA097AE1D2E97EF00E8340C /* Piggy BankTests */,
+				FEA097B91D2E97F000E8340C /* Piggy BankUITests */,
+				FEA097931D2E97EF00E8340C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA097931D2E97EF00E8340C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA097921D2E97EF00E8340C /* Piggy Bank.app */,
+				FEA097AB1D2E97EF00E8340C /* Piggy BankTests.xctest */,
+				FEA097B61D2E97F000E8340C /* Piggy BankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA097941D2E97EF00E8340C /* Piggy Bank */ = {
+			isa = PBXGroup;
+			children = (
+				FEA097CE1D2E9E4800E8340C /* black.png */,
+				FEA097C81D2E9B1A00E8340C /* bill.png */,
+				FEA097C91D2E9B1A00E8340C /* goldCoin.png */,
+				FEA097CA1D2E9B1A00E8340C /* silverCoin.png */,
+				FEA097981D2E97EF00E8340C /* AppDelegate.h */,
+				FEA097991D2E97EF00E8340C /* AppDelegate.m */,
+				FEA0979B1D2E97EF00E8340C /* ViewController.h */,
+				FEA0979C1D2E97EF00E8340C /* ViewController.m */,
+				FEA0979E1D2E97EF00E8340C /* Main.storyboard */,
+				FEA097A11D2E97EF00E8340C /* Assets.xcassets */,
+				FEA097A31D2E97EF00E8340C /* LaunchScreen.storyboard */,
+				FEA097A61D2E97EF00E8340C /* Info.plist */,
+				FEA097951D2E97EF00E8340C /* Supporting Files */,
+				FEA097D01D2EA05700E8340C /* Coin.h */,
+				FEA097D11D2EA05700E8340C /* Coin.m */,
+			);
+			path = "Piggy Bank";
+			sourceTree = "<group>";
+		};
+		FEA097951D2E97EF00E8340C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEA097961D2E97EF00E8340C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEA097AE1D2E97EF00E8340C /* Piggy BankTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA097AF1D2E97EF00E8340C /* Piggy_BankTests.m */,
+				FEA097B11D2E97EF00E8340C /* Info.plist */,
+			);
+			path = "Piggy BankTests";
+			sourceTree = "<group>";
+		};
+		FEA097B91D2E97F000E8340C /* Piggy BankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA097BA1D2E97F000E8340C /* Piggy_BankUITests.m */,
+				FEA097BC1D2E97F000E8340C /* Info.plist */,
+			);
+			path = "Piggy BankUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEA097911D2E97EF00E8340C /* Piggy Bank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA097BF1D2E97F000E8340C /* Build configuration list for PBXNativeTarget "Piggy Bank" */;
+			buildPhases = (
+				FEA0978E1D2E97EF00E8340C /* Sources */,
+				FEA0978F1D2E97EF00E8340C /* Frameworks */,
+				FEA097901D2E97EF00E8340C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Piggy Bank";
+			productName = "Piggy Bank";
+			productReference = FEA097921D2E97EF00E8340C /* Piggy Bank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEA097AA1D2E97EF00E8340C /* Piggy BankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA097C21D2E97F000E8340C /* Build configuration list for PBXNativeTarget "Piggy BankTests" */;
+			buildPhases = (
+				FEA097A71D2E97EF00E8340C /* Sources */,
+				FEA097A81D2E97EF00E8340C /* Frameworks */,
+				FEA097A91D2E97EF00E8340C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA097AD1D2E97EF00E8340C /* PBXTargetDependency */,
+			);
+			name = "Piggy BankTests";
+			productName = "Piggy BankTests";
+			productReference = FEA097AB1D2E97EF00E8340C /* Piggy BankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEA097B51D2E97EF00E8340C /* Piggy BankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA097C51D2E97F000E8340C /* Build configuration list for PBXNativeTarget "Piggy BankUITests" */;
+			buildPhases = (
+				FEA097B21D2E97EF00E8340C /* Sources */,
+				FEA097B31D2E97EF00E8340C /* Frameworks */,
+				FEA097B41D2E97EF00E8340C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA097B81D2E97F000E8340C /* PBXTargetDependency */,
+			);
+			name = "Piggy BankUITests";
+			productName = "Piggy BankUITests";
+			productReference = FEA097B61D2E97F000E8340C /* Piggy BankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA0978A1D2E97EF00E8340C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kelly Maclauchlan";
+				TargetAttributes = {
+					FEA097911D2E97EF00E8340C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FEA097AA1D2E97EF00E8340C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FEA097911D2E97EF00E8340C;
+					};
+					FEA097B51D2E97EF00E8340C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FEA097911D2E97EF00E8340C;
+					};
+				};
+			};
+			buildConfigurationList = FEA0978D1D2E97EF00E8340C /* Build configuration list for PBXProject "Piggy Bank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEA097891D2E97EF00E8340C;
+			productRefGroup = FEA097931D2E97EF00E8340C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA097911D2E97EF00E8340C /* Piggy Bank */,
+				FEA097AA1D2E97EF00E8340C /* Piggy BankTests */,
+				FEA097B51D2E97EF00E8340C /* Piggy BankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEA097901D2E97EF00E8340C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA097A51D2E97EF00E8340C /* LaunchScreen.storyboard in Resources */,
+				FEA097CF1D2E9E4800E8340C /* black.png in Resources */,
+				FEA097CD1D2E9B1A00E8340C /* silverCoin.png in Resources */,
+				FEA097A21D2E97EF00E8340C /* Assets.xcassets in Resources */,
+				FEA097CB1D2E9B1A00E8340C /* bill.png in Resources */,
+				FEA097CC1D2E9B1A00E8340C /* goldCoin.png in Resources */,
+				FEA097A01D2E97EF00E8340C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA097A91D2E97EF00E8340C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA097B41D2E97EF00E8340C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA0978E1D2E97EF00E8340C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA0979D1D2E97EF00E8340C /* ViewController.m in Sources */,
+				FEA0979A1D2E97EF00E8340C /* AppDelegate.m in Sources */,
+				FEA097D21D2EA05700E8340C /* Coin.m in Sources */,
+				FEA097971D2E97EF00E8340C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA097A71D2E97EF00E8340C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA097B01D2E97EF00E8340C /* Piggy_BankTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA097B21D2E97EF00E8340C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA097BB1D2E97F000E8340C /* Piggy_BankUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEA097AD1D2E97EF00E8340C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA097911D2E97EF00E8340C /* Piggy Bank */;
+			targetProxy = FEA097AC1D2E97EF00E8340C /* PBXContainerItemProxy */;
+		};
+		FEA097B81D2E97F000E8340C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA097911D2E97EF00E8340C /* Piggy Bank */;
+			targetProxy = FEA097B71D2E97F000E8340C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEA0979E1D2E97EF00E8340C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA0979F1D2E97EF00E8340C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEA097A31D2E97EF00E8340C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA097A41D2E97EF00E8340C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEA097BD1D2E97F000E8340C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEA097BE1D2E97F000E8340C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEA097C01D2E97F000E8340C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Piggy Bank/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kelly.Piggy-Bank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEA097C11D2E97F000E8340C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Piggy Bank/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kelly.Piggy-Bank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEA097C31D2E97F000E8340C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Piggy BankTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kelly.Piggy-BankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piggy Bank.app/Piggy Bank";
+			};
+			name = Debug;
+		};
+		FEA097C41D2E97F000E8340C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Piggy BankTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kelly.Piggy-BankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piggy Bank.app/Piggy Bank";
+			};
+			name = Release;
+		};
+		FEA097C61D2E97F000E8340C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Piggy BankUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kelly.Piggy-BankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Piggy Bank";
+			};
+			name = Debug;
+		};
+		FEA097C71D2E97F000E8340C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Piggy BankUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kelly.Piggy-BankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Piggy Bank";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA0978D1D2E97EF00E8340C /* Build configuration list for PBXProject "Piggy Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA097BD1D2E97F000E8340C /* Debug */,
+				FEA097BE1D2E97F000E8340C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA097BF1D2E97F000E8340C /* Build configuration list for PBXNativeTarget "Piggy Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA097C01D2E97F000E8340C /* Debug */,
+				FEA097C11D2E97F000E8340C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEA097C21D2E97F000E8340C /* Build configuration list for PBXNativeTarget "Piggy BankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA097C31D2E97F000E8340C /* Debug */,
+				FEA097C41D2E97F000E8340C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEA097C51D2E97F000E8340C /* Build configuration list for PBXNativeTarget "Piggy BankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA097C61D2E97F000E8340C /* Debug */,
+				FEA097C71D2E97F000E8340C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEA0978A1D2E97EF00E8340C /* Project object */;
+}

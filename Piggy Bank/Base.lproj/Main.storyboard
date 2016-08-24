@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cnP-LZ-PJm">
+                                <rect key="frame" x="154" y="55" width="64" height="31"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="$5" backgroundImage="bill.png">
+                                    <color key="titleColor" red="0.014731549199999999" green="0.014731549199999999" blue="0.014731549199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="29" y="28" width="64" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonHit:" destination="BYZ-38-t0r" eventType="touchDown" id="bg5-jZ-1NY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ql-4S-J01">
+                                <rect key="frame" x="269" y="55" width="67" height="36"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="$10" backgroundImage="bill.png">
+                                    <color key="titleColor" red="0.014731549199999999" green="0.014731549199999999" blue="0.014731549199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="144" y="28" width="67" height="36"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonHit:" destination="BYZ-38-t0r" eventType="touchDown" id="WsV-tB-rsp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L11-Qf-zz9">
+                                <rect key="frame" x="375" y="55" width="72" height="35"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="$20" backgroundImage="bill.png">
+                                    <color key="titleColor" red="0.014731549199999999" green="0.014731549199999999" blue="0.014731549199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="250" y="28" width="72" height="35"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonHit:" destination="BYZ-38-t0r" eventType="touchDown" id="hwg-is-20j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHU-Qc-88e">
+                                <rect key="frame" x="215" y="138" width="67" height="35"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="$50" backgroundImage="bill.png">
+                                    <color key="titleColor" red="0.014731549199999999" green="0.014731549199999999" blue="0.014731549199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="90" y="111" width="67" height="35"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonHit:" destination="BYZ-38-t0r" eventType="touchDown" id="tJ3-z5-sh5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZ2-hn-G71">
+                                <rect key="frame" x="324" y="138" width="64" height="35"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="$100" backgroundImage="bill.png">
+                                    <color key="titleColor" red="0.014731549199999999" green="0.014731549199999999" blue="0.014731549199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="199" y="111" width="64" height="35"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonHit:" destination="BYZ-38-t0r" eventType="touchDown" id="nud-ik-AQV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFD-kW-MJr">
+                                <rect key="frame" x="190" y="267" width="38" height="38"/>
+                                <state key="normal" title="1¢" backgroundImage="goldCoin.png">
+                                    <color key="titleColor" red="0.014731549199999999" green="0.014731549199999999" blue="0.014731549199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="55" y="240" width="38" height="38"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonHit:" destination="BYZ-38-t0r" eventType="touchDown" id="95p-hk-OaK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gn0-Kd-BUR">
+                                <rect key="frame" x="296" y="267" width="38" height="38"/>
+                                <state key="normal" title="5¢" backgroundImage="silverCoin.png">
+                                    <color key="titleColor" red="0.014731549199999999" green="0.014731549199999999" blue="0.014731549199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="158" y="240" width="38" height="38"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonHit:" destination="BYZ-38-t0r" eventType="touchDown" id="TlP-Ji-DGg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7X-4N-Din">
+                                <rect key="frame" x="296" y="357" width="40" height="38"/>
+                                <state key="normal" title="$1" backgroundImage="goldCoin.png">
+                                    <color key="titleColor" red="0.014731549199999999" green="0.014731549199999999" blue="0.014731549199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="158" y="330" width="40" height="38"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonHit:" destination="BYZ-38-t0r" eventType="touchDown" id="4Fy-OW-Hb4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hU-s6-iAS">
+                                <rect key="frame" x="392" y="267" width="38" height="38"/>
+                                <state key="normal" title="10¢" backgroundImage="silverCoin.png">
+                                    <color key="titleColor" red="0.014731549199999999" green="0.014731549199999999" blue="0.014731549199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="266" y="240" width="38" height="38"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonHit:" destination="BYZ-38-t0r" eventType="touchDown" id="7gI-Gn-mkQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TV9-3U-6pq">
+                                <rect key="frame" x="190" y="357" width="38" height="38"/>
+                                <state key="normal" title="25¢" backgroundImage="silverCoin.png">
+                                    <color key="titleColor" red="0.014731549199999999" green="0.014731549199999999" blue="0.014731549199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="55" y="330" width="38" height="38"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonHit:" destination="BYZ-38-t0r" eventType="touchDown" id="8pC-Fp-cmZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsA-9Q-UyT">
+                                <rect key="frame" x="391" y="358" width="40" height="37"/>
+                                <state key="normal" title="$2" backgroundImage="silverCoin.png">
+                                    <color key="titleColor" red="0.014731549199999999" green="0.014731549199999999" blue="0.014731549199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="265" y="331" width="40" height="37"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonHit:" destination="BYZ-38-t0r" eventType="touchDown" id="Hkc-lO-upc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ApD-GR-osh">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Undo" backgroundImage="black.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="506" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="undoHit:" destination="BYZ-38-t0r" eventType="touchDown" id="m0n-ZS-pfs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4KO-vA-fjR">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Clear" backgroundImage="black.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="83" y="506" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="clearHit:" destination="BYZ-38-t0r" eventType="touchDown" id="WaS-LP-9e0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0e-k3-Tcl">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Amount" backgroundImage="black.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="144" y="506" width="54" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="ammountHit:" destination="BYZ-38-t0r" eventType="touchDown" id="57J-Bj-0Wz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6C-4Z-w8l">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="211" y="510" width="130" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1¢" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4z6-s9-BgU">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="65" y="286" width="19" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5¢" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ef-r5-903">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="165" y="286" width="21" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10¢" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Es-Wp-n1Q">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="271" y="286" width="29" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25¢" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CzO-7R-wVl">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="59" y="387" width="31" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fzi-5c-fm3">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="169" y="387" width="19" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKH-PT-49E">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="275" y="387" width="21" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQz-pG-Qss">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="51" y="67" width="21" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5G-nj-cdq">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="67" width="29" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdi-of-JG8">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="269" y="71" width="31" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4zP-y0-Uzf">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="106" y="159" width="32" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwf-ap-w0H">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="212" y="159" width="39" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.64382870839999995" green="1" blue="0.95785582079999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="ApD-GR-osh"/>
+                                <exclude reference="4KO-vA-fjR"/>
+                                <exclude reference="y0e-k3-Tcl"/>
+                                <exclude reference="k6C-4Z-w8l"/>
+                                <exclude reference="4z6-s9-BgU"/>
+                                <exclude reference="0Ef-r5-903"/>
+                                <exclude reference="3Es-Wp-n1Q"/>
+                                <exclude reference="CzO-7R-wVl"/>
+                                <exclude reference="Fzi-5c-fm3"/>
+                                <exclude reference="aKH-PT-49E"/>
+                                <exclude reference="zQz-pG-Qss"/>
+                                <exclude reference="M5G-nj-cdq"/>
+                                <exclude reference="vdi-of-JG8"/>
+                                <exclude reference="4zP-y0-Uzf"/>
+                                <exclude reference="fwf-ap-w0H"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="ApD-GR-osh"/>
+                                <include reference="4KO-vA-fjR"/>
+                                <include reference="y0e-k3-Tcl"/>
+                                <include reference="k6C-4Z-w8l"/>
+                                <include reference="4z6-s9-BgU"/>
+                                <include reference="0Ef-r5-903"/>
+                                <include reference="3Es-Wp-n1Q"/>
+                                <include reference="CzO-7R-wVl"/>
+                                <include reference="Fzi-5c-fm3"/>
+                                <include reference="aKH-PT-49E"/>
+                                <include reference="zQz-pG-Qss"/>
+                                <include reference="M5G-nj-cdq"/>
+                                <include reference="vdi-of-JG8"/>
+                                <include reference="4zP-y0-Uzf"/>
+                                <include reference="fwf-ap-w0H"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="amount" destination="y0e-k3-Tcl" id="Heh-vA-GCv"/>
+                        <outlet property="button1" destination="rFD-kW-MJr" id="LZl-gV-lu1"/>
+                        <outlet property="button10" destination="jHU-Qc-88e" id="fEo-XP-6l7"/>
+                        <outlet property="button11" destination="WZ2-hn-G71" id="KIo-iV-lPG"/>
+                        <outlet property="button2" destination="gn0-Kd-BUR" id="i6s-7J-qVk"/>
+                        <outlet property="button3" destination="7hU-s6-iAS" id="PQx-pV-a3f"/>
+                        <outlet property="button4" destination="TV9-3U-6pq" id="tRM-le-w6k"/>
+                        <outlet property="button5" destination="j7X-4N-Din" id="7t7-cZ-jog"/>
+                        <outlet property="button6" destination="gsA-9Q-UyT" id="SC0-c9-Tcd"/>
+                        <outlet property="button7" destination="cnP-LZ-PJm" id="85w-bT-KuC"/>
+                        <outlet property="button8" destination="1Ql-4S-J01" id="MBs-3K-IWg"/>
+                        <outlet property="button9" destination="L11-Qf-zz9" id="dq5-AF-4S4"/>
+                        <outlet property="clear" destination="4KO-vA-fjR" id="M34-Pf-mVX"/>
+                        <outlet property="label1" destination="4z6-s9-BgU" id="PzH-xc-ltZ"/>
+                        <outlet property="label10" destination="4zP-y0-Uzf" id="REi-Jc-XAm"/>
+                        <outlet property="label11" destination="fwf-ap-w0H" id="WUH-2j-aQh"/>
+                        <outlet property="label2" destination="0Ef-r5-903" id="cKU-6H-TyJ"/>
+                        <outlet property="label3" destination="3Es-Wp-n1Q" id="FQv-px-KKu"/>
+                        <outlet property="label4" destination="CzO-7R-wVl" id="Pfo-6n-7HR"/>
+                        <outlet property="label5" destination="Fzi-5c-fm3" id="66g-c6-wNF"/>
+                        <outlet property="label6" destination="aKH-PT-49E" id="uRN-bc-ONe"/>
+                        <outlet property="label7" destination="zQz-pG-Qss" id="EHq-uK-yXb"/>
+                        <outlet property="label8" destination="M5G-nj-cdq" id="3Up-ji-Ntt"/>
+                        <outlet property="label9" destination="vdi-of-JG8" id="nnp-5C-D8F"/>
+                        <outlet property="totalText" destination="k6C-4Z-w8l" id="dPi-yo-fBn"/>
+                        <outlet property="undo" destination="ApD-GR-osh" id="53q-61-le7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244.5" y="337"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bill.png" width="70" height="50"/>
+        <image name="black.png" width="70" height="50"/>
+        <image name="goldCoin.png" width="40" height="40"/>
+        <image name="silverCoin.png" width="40" height="40"/>
+    </resources>
+</document>
